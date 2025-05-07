@@ -37,6 +37,8 @@ activity 4
 In this activity will likely to connect to the database .This function establishes a MySQL database connection using "SQLAlchemy" and "pymysql".Users must input a valid username and password from the predefined dictionary.Reads data using SQL: SELECT * FROM {table_name}.
 
 activity 6
-
+![Screenshot 2025-05-07 234521](https://github.com/user-attachments/assets/5bd67de5-65a4-4a31-8861-f7361ae405a8)
+![Screenshot 2025-05-07 234536](https://github.com/user-attachments/assets/c004965a-b7cf-426e-82ea-b964906b2a61)
+For activity is It captures live video from your webcam, applies one of several filters in real-time, and lets you take a snapshot with a single click.Loads OpenCV's pre-trained Haar Cascade model for detecting faces.capture Accesses your system’s default webcam (0).st.button() only triggers once on render, so placing it in a live loop won't work as expected. You’ll likely need st.session_state or streamlit-webrtc for a more stable real-time app.
 
 
